@@ -12,7 +12,9 @@
 <p>
     Acabei vendo um login desses em um gif no linkedin, ai decidi replicar um parecido.
 </p>
-
+<p>
+	Enquanto o todos os campos não forem preenchido o botão de login ficará se mexendo.
+</p>
 <img 
     src="https://raw.githubusercontent.com/maiconDeSouza/assets/master/crazy-login/crazy.gif"
 />
