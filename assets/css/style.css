@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .container{
+    width: 25rem;
+    height: 34rem;
+    background: rgb(63,94,251);
+    background: linear-gradient(163deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    
+    border-radius: 30px;
+}
+
+.container header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.45rem;
+
+    height: 16rem;
+    
+}
+
+.container header div{
+    width: 8rem;
+    height: 8rem;
+
+    border-radius: 50%;
+
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container header div i{
+    font-size: 5rem;
+}
+
+.container header h2{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+
+.container main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-bottom: 3rem;
+}
+
+.container main label[for="username"],.container main label[for="password"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container main label[for="username"] i,.container main label[for="password"] i{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.container main label[for="username"] input,.container main label[for="password"] input{
+    height: 4rem;
+    width: 80%;
+
+    background-color: transparent;
+    border: none;
+
+    border-bottom: 1px solid aliceblue;
+
+    padding-left: 1rem;
+
+    font-size: 1rem;
+    color: aliceblue;
+
+    outline: none;
+}
+.container main label[for="username"] input::placeholder,.container main label[for="password"] input::placeholder{
+    color: aliceblue;
+
+}
+
+.container footer{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.container footer button{
+    padding: 10px;
+    width: 8rem;
+
+    border: none;
+    border-radius: 15px;
+
+    font-weight: 700;
+
+    transition: .3s;
+}
+
+@media (max-width: 600px){
+    body .container{
+        width: 95vw;
+        
+    }
+}
