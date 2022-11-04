@@ -15,11 +15,18 @@
 <p>
 	Enquanto o todos os campos não forem preenchido o botão de login ficará fugindo do click.
 </p>
+
+<p>
+    Acesse o  <a href="https://crazylogin.maiconsouza.com.br/">Projeto</a> 
+</p>
+
+<p>
+    Acesse o meu  <a href="https://portfolio.maiconsouza.com.br/">Portfólio</a> 
+</p>
+
 <img 
     src="https://raw.githubusercontent.com/maiconDeSouza/assets/master/crazy-login/crazy.gif"
 />
-
-
 
 
 <h3>Tecnologias utilizadas</h3>
